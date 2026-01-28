@@ -1,0 +1,81 @@
+body{
+    background-color:#E8DDB5;
+}
+
+.form-elements{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    background-color: white;
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 8px;
+    margin-top: 30px;
+}
+
+.form-container{
+    border:0.5px solid black;
+    padding-left: 20px;
+    padding-top: 30px;
+    background-color:beige;
+}
+.add-task{
+    width: 800px;
+    padding-top: 10px;
+    /* border: 1px solid black; */
+} 
+.add-task input{
+    width: 800px;
+    height: 80px;
+    padding-left: 40px;
+}
+.add-task button{
+    height: 80px;
+    
+}
+.container{
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.completed-task{
+    height: 70px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+.completed-container h2{
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-bottom: 20px;
+  
+    
+}
+.completed-container{
+    border: 0.5px solid black;
+    width: 700px;
+    background-color: rgb(243, 235, 225);
+    overflow-y: scroll;
+    height: 600px; 
+}
+
+.completed-task::-webkit-scrollbar {
+    width: 6px;
+}
+
+.completed-task::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+/* .completed-container a{
+    font-size: x-small;
+} */
